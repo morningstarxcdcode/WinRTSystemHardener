@@ -1,13 +1,13 @@
-# WinRT System Recon + Auto Hardener
+## New Features
 
-A powerful C# + WinRT-based tool for scanning Windows system security settings and applying basic hardening measures.
+### Real-Time Threat Monitoring
+- Continuously monitors the system for suspicious processes and activities.
+- Stops dangerous processes and blocks threats automatically.
 
-## Features
-- System info scanner using WinRT and WMI
-- UAC, Firewall, and Antivirus check
-- Auto hardening (disable SMBv1, enable firewall rules)
-- Export system reports
-- Easy CLI interface
+### Auto Remediation
+- Automatically fixes known vulnerabilities (e.g., disabling SMBv1, updating outdated software).
+- No manual intervention needed for security hardening.
 
-## Author
-morningstarxcdcode
+### Logs and Reports
+- Logs all detected threats and actions taken.
+- Generates detailed reports for system security overview.
