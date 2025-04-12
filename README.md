@@ -1,18 +1,16 @@
-## WinRT System Hardener
+# WinRT System Hardener
 
-### New Features
+This project enhances Windows runtime security by leveraging the power of **CsWinRT**, a library from [Microsoft’s GitHub repository](https://github.com/morningstarxcdcode/CsWinRT).
 
-- **Real-Time Threat Monitoring**: 
-  Continuously watches system processes for suspicious activity and stops dangerous processes automatically.
+## Features
+- System info scanner using **WinRT** and **WMI**
+- UAC, Firewall, and Antivirus check
+- Auto hardening (disable SMBv1, enable firewall rules)
+- Export system reports
+- Easy CLI interface
 
-- **Auto Remediation**: 
-  Automatically fixes known vulnerabilities (e.g., disabling SMBv1, updating outdated software) to improve security.
+## How This Project Uses **CsWinRT**
+This project integrates **CsWinRT** to interact with Windows Runtime APIs for security-related operations. By using **CsWinRT**, we ensure compatibility with the Windows runtime environment and enable the system to dynamically enhance security features.
 
-- **Logging**: 
-  Logs all detected threats and actions taken, and creates a security report.
-
-### Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/morningstarxcdcode/WinRTSystemHardener.git
+## Related Projects
+- [Microsoft CsWinRT](https://github.com/microsoft/CsWinRT) - The official repository for **CsWinRT**.
