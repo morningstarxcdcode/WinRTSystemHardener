@@ -11,6 +11,8 @@ class Program
 
         GetSystemInfo();
         CheckFirewallStatus();
+        CheckUACStatus();
+        CheckAntivirusStatus();
     }
 
     static void GetSystemInfo()
@@ -31,4 +33,19 @@ class Program
         // Placeholder - Real code will come later
         Console.WriteLine("🔒 Firewall is ENABLED ✅ (simulated)");
     }
+
+    static void CheckUACStatus()
+    {
+        Console.WriteLine("\n[+] Checking UAC (User Account Control) status...");
+        // Simulated UAC check
+        Console.WriteLine("🛡️ UAC is ENABLED ✅ (simulated)");
+    }
+
+    static void CheckAntivirusStatus()
+    {
+        Console.WriteLine("\n[+] Checking Antivirus status...");
+        // Placeholder - You could use Windows Management Instrumentation (WMI) to get antivirus status
+        Console.WriteLine("🛡️ Antivirus is ACTIVE ✅ (simulated)");
+    }
 }
+
