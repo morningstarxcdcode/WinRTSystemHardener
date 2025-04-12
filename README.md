@@ -14,3 +14,6 @@ This project integrates **CsWinRT** to interact with Windows Runtime APIs for se
 
 ## Related Projects
 - [Microsoft CsWinRT](https://github.com/microsoft/CsWinRT) - The official repository for **CsWinRT**.
+ ## 📸 Screenshot
+
+![WinRT System Hardener](./assets/screenshot.png)
