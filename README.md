@@ -1,13 +1,18 @@
-## New Features
+## WinRT System Hardener
 
-### Real-Time Threat Monitoring
-- Continuously monitors the system for suspicious processes and activities.
-- Stops dangerous processes and blocks threats automatically.
+### New Features
 
-### Auto Remediation
-- Automatically fixes known vulnerabilities (e.g., disabling SMBv1, updating outdated software).
-- No manual intervention needed for security hardening.
+- **Real-Time Threat Monitoring**: 
+  Continuously watches system processes for suspicious activity and stops dangerous processes automatically.
 
-### Logs and Reports
-- Logs all detected threats and actions taken.
-- Generates detailed reports for system security overview.
+- **Auto Remediation**: 
+  Automatically fixes known vulnerabilities (e.g., disabling SMBv1, updating outdated software) to improve security.
+
+- **Logging**: 
+  Logs all detected threats and actions taken, and creates a security report.
+
+### Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/morningstarxcdcode/WinRTSystemHardener.git
