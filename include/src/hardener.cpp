@@ -1,10 +1,10 @@
 #include <iostream>
 #include "../include/hardener.hpp"
 
-void startRecon() {
-    std::cout << "🔍 Recon started (dummy logic)" << std::endl;
+void monitorApps() {
+    std::cout << "👁️  Monitoring app behavior (dummy logic)" << std::endl;
 }
 
-void applyHardening() {
-    std::cout << "🛡️  Applying hardening steps (dummy logic)" << std::endl;
+void blockThreats() {
+    std::cout << "⛔ Blocking threats (dummy logic)" << std::endl;
 }

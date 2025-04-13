@@ -1,0 +1,4 @@
+Normal log entry
+Unauthorized access attempt detected
+CVE-2023-4567 exploit triggered
+Malicious file found

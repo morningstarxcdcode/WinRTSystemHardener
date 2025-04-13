@@ -1,7 +1,7 @@
 #ifndef HARDENER_HPP
 #define HARDENER_HPP
 
-void startRecon();
-void applyHardening();
+void monitorApps();
+void blockThreats();
 
 #endif
