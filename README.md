@@ -11,6 +11,8 @@ This project enhances Windows runtime security by leveraging the power of **CsWi
 
 ## Features
 
+### Badge Trigger Test - 2025-04-16
+
 - System info scanner using **WinRT** and **WMI**
 - UAC, Firewall, and Antivirus check
 - Auto hardening (disable SMBv1, enable firewall rules)
