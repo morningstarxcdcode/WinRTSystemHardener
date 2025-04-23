@@ -2,6 +2,7 @@
 #define HARDENER_HPP
 
 // Modernized header with all function declarations and include guards
+// Author: morningstarxcd
 
 #include <string>
 

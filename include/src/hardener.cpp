@@ -4,6 +4,7 @@
 #include "../include/hardener.hpp"
 
 // Modernized implementations with simulated delays and clearer output
+// Author: morningstarxcd
 
 void startRecon() {
     std::cout << "🔍 Starting reconnaissance..." << std::endl;

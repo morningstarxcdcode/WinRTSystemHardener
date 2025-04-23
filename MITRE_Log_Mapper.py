@@ -1,5 +1,7 @@
 from typing import Dict
 
+# Author: morningstarxcd
+
 # MITRE ATT&CK Technique Mapping
 MITRE_ATTACK_MAP: Dict[str, str] = {
     "powershell": "T1059 - Command and Scripting Interpreter",

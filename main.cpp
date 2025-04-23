@@ -2,6 +2,8 @@
 #include "include/hardener.hpp"
 
 // Entry point for WinRT System Hardener application
+// Author: morningstarxcd
+
 int main() {
     std::cout << "🚀 WinRT System Hardener Started" << std::endl;
 

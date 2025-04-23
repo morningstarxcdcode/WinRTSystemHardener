@@ -1,3 +1,4 @@
+# Author: morningstarxcd
 from typing import Dict, List, Any
 from fpdf import FPDF
 import pandas as pd

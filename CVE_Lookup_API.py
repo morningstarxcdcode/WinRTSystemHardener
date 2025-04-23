@@ -1,3 +1,4 @@
+# Author: morningstarxcd
 import requests
 import time
 import json

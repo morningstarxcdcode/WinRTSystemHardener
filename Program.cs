@@ -1,6 +1,8 @@
 using System;
 using System.Management;
 
+// Author: morningstarxcd
+
 class Program
 {
     static void Main()

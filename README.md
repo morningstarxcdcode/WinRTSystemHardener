@@ -26,6 +26,10 @@ This project includes test functions for each component. To run tests, execute t
 - Python: Run `MITRE_Log_Mapper.py`, `CVE_Lookup_API.py`, and `Auto_Report_Generator.py` to execute their test functions.
 - C#: Use the `TestSystemChecks` method in `Program.cs` or run the program normally.
 
+## Author
+
+This project is authored and maintained by **morningstarxcd**.
+
 ## License
 
 [Specify your license here]
