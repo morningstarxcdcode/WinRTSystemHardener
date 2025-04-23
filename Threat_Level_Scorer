@@ -1,0 +1,14 @@
+def threat_level_score(severity, log_type):
+    base_score = {
+        "LOW": 2,
+        "MEDIUM": 5,
+        "HIGH": 7,
+        "CRITICAL": 9
+    }.get(severity.upper(), 1)
+
+    if "privilege escalation" in log_type.lower():
+        base_score += 1
+    elif "network scan" in log_type.lower():
+        base_score += 0.5
+
+    return min(base_score, 10)

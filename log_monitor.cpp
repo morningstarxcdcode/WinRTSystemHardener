@@ -4,10 +4,15 @@
 #include <fstream>
 #include <string>
 
+// Monitor logs for suspicious entries in real-time
 void monitor_logs() {
     std::ifstream logFile("dummy_logs.txt");
-    std::string line;
+    if (!logFile.is_open()) {
+        std::cerr << "Error: Could not open dummy_logs.txt. Make sure the file exists.\n";
+        return;
+    }
 
+    std::string line;
     std::cout << "🔍 Starting Real-Time Log Monitoring...\n";
 
     while (true) {
@@ -24,7 +29,32 @@ void monitor_logs() {
     }
 }
 
+// Test function for monitor_logs logic (simulated)
+void test_log_monitor() {
+    std::string test_logs[] = {
+        "CVE-2024-1234 exploit detected",
+        "Unauthorized access attempt",
+        "Malicious activity logged",
+        "Normal log entry"
+    };
+
+    for (const auto& log : test_logs) {
+        if (log.find("CVE") != std::string::npos ||
+            log.find("unauthorized") != std::string::npos ||
+            log.find("malicious") != std::string::npos) {
+            std::cout << "⚠️ Suspicious log found: " << log << std::endl;
+        } else {
+            std::cout << "Log is clean: " << log << std::endl;
+        }
+    }
+}
+
 int main() {
-    monitor_logs();
+    // Run tests
+    test_log_monitor();
+
+    // Uncomment to run real-time monitoring
+    // monitor_logs();
+
     return 0;
 }
