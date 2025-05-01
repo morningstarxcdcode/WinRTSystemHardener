@@ -1,6 +1,8 @@
 using System;
 using System.Management;
 
+// Author: morningstarxcd
+
 class Program
 {
     static void Main()
@@ -13,6 +15,8 @@ class Program
         CheckFirewallStatus();
         CheckUACStatus();
         CheckAntivirusStatus();
+
+        Console.WriteLine("\n✅ System checks completed successfully.");
     }
 
     static void GetSystemInfo()
@@ -46,6 +50,14 @@ class Program
         Console.WriteLine("\n[+] Checking Antivirus status...");
         // Placeholder - You could use Windows Management Instrumentation (WMI) to get antivirus status
         Console.WriteLine("🛡️ Antivirus is ACTIVE ✅ (simulated)");
+    }
+
+    // Test method to simulate system checks
+    static void TestSystemChecks()
+    {
+        Console.WriteLine("Running system checks test...");
+        Main();
+        Console.WriteLine("System checks test completed.");
     }
 }
 

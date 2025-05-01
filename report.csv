@@ -1,0 +1,5 @@
+Log,Threat Level,MITRE Technique
+powershell executed,High,T1059
+mimikatz detected,High,T1003
+ping command used,Medium,T1046
+whoami executed,Medium,T1033

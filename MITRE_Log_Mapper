@@ -1,0 +1,30 @@
+# MITRE ATT&CK Technique Mapping
+MITRE_ATTACK_MAP = {
+    "powershell": "T1059 - Command and Scripting Interpreter",
+    "mimikatz": "T1003 - Credential Dumping",
+    "ping": "T1046 - Network Service Scanning",
+    "whoami": "T1033 - System Owner/User Discovery"
+}
+
+# Function to map log entries to MITRE techniques
+def map_log_to_mitre(log_entry):
+    for keyword in MITRE_ATTACK_MAP:
+        if keyword in log_entry.lower():
+            return MITRE_ATTACK_MAP[keyword]
+    return "Unknown"
+
+# Example usage
+if __name__ == "__main__":
+    # Sample log entries
+    logs = [
+        "Detected use of powershell",
+        "Unauthorized access using mimikatz",
+        "Ping command executed for network scanning",
+        "User executed whoami command",
+        "No suspicious activity detected"
+    ]
+
+    # Map each log entry to a MITRE technique
+    for log in logs:
+        mapped = map_log_to_mitre(log)
+        print(f"Log: {log}\nMapped to MITRE: {mapped}\n"        ls /Users/morningstar/Desktop/WinRTSystemHardener/)
